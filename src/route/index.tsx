@@ -1,9 +1,9 @@
-import Home from '@/pages';
+import { Home } from '@/pages';
 import { useRoutes } from 'react-router-dom';
 const Route = () => {
   return useRoutes([
     {
-      path: '/',
+      path: '/chat',
       element: <Home />,
     },
   ]);
